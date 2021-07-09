@@ -1,8 +1,6 @@
-// Simple demo for node and CommonJS loading
- 
-import { serve, http, register, on } from "zerva"
+import { serve, useHttp, register, on } from "zerva"
 
-function counter() {
+function useCounter() {
   register("counter", ["http"])
   let counter = 1
   on("httpInit", ({ get }) => {
@@ -14,9 +12,10 @@ function counter() {
   
 }
 
-serve(() => {
-  http({
-    port: 8080,
-  })
-  counter()
+useHttp({
+  port: 8080,
 })
+
+useCounter()
+
+serve()
