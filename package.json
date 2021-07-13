@@ -1,6 +1,6 @@
 {
   "name": "zerva-minimal-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The most minimal demo",
   "type": "module",
   "scripts": {
