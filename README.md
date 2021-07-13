@@ -1,2 +1,16 @@
-# zerva-minimal-demo
-The most minimal demo
+# 🌱 Zerva Project Template
+
+**This is a side project of [Zerva](https://github.com/holtwick/zerva)** 
+
+Start writing a project for Zerva by using this project as a template.
+
+## Checklist
+
+- [ ] Adjust name and author in `package.json`
+- [ ] Get started in `index.ts`
+
+Run it right away:
+
+```sh
+npm start
+```
