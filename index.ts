@@ -9,7 +9,6 @@ function useCounter() {
       () => `Counter ${counter++}.<br><br>Reload page to increase counter.`
     )
   })
-  
 }
 
 useHttp({
