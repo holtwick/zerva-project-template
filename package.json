@@ -7,6 +7,6 @@
     "start": "zerva index.ts"
   },
   "dependencies": {
-    "zerva": ">=0.2.9"
+    "zerva": ">=0.4.8"
   }
 }
