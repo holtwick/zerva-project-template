@@ -9,6 +9,7 @@ Start writing a project for Zerva by using this project as a template.
 - Best practice example.
 - Ready for deployment via Docker.
 - `rsync` distribution to server.
+- Unit test ready with example.
 - Example for repeating cron-like tasks.
 
 ## Checklist
