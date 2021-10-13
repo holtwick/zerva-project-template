@@ -1,12 +1,26 @@
 {
-  "name": "zerva-minimal-demo",
-  "version": "1.0.4",
-  "description": "The most minimal demo",
+  "name": "zerva-project-template",
+  "version": "0.1.1",
+  "description": "Basic Zerva project",
   "type": "module",
   "scripts": {
-    "start": "zerva index.ts"
+    "start": "zerva",
+    "build": "zerva build",
+    "serve": "node dist/main.cjs",
+    "dev": "zerva",
+    "test": "jest"
   },
   "dependencies": {
-    "zerva": ">=0.4.8"
+    "zeed": "^0.7.45",
+    "zerva": "^0.4.35"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.5",
+    "cron": "^1.8.2",
+    "cross-fetch": "^3.1.4",
+    "jest": "^27.2.5",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.4"
   }
 }
