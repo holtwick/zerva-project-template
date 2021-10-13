@@ -1,5 +1,4 @@
 node_modules
-data
 pnpm*
 .pnpm*
 dist
@@ -7,3 +6,5 @@ tmp
 *.log
 .out*
 *.local
+resources
+data
