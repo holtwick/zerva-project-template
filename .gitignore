@@ -6,7 +6,7 @@
 
 dist
 
-# Hostic will write temporary data into this folder
+# Temporary JS files
 
 .out*
 
@@ -24,7 +24,6 @@ dist
 
 .DS_Store
 node_modules
-
 pnpm*
-
 *.log
+data
