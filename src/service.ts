@@ -12,8 +12,8 @@ export async function setupService() {
     const started = new Date().toISOString()
     log.info(`Service started at ${started}`)
 
-    get("/", () => {
-      return `Running since ${started}.`
+    get("/", ({ req }) => {
+      return `Running since ${started}. Your IP is ${req.ip}.`
     })
   })
 
