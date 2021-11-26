@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "zeed": "^0.7.76",
-    "zerva": "^0.4.64"
+    "zerva": "^0.5.1"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",

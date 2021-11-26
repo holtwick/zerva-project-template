@@ -12,7 +12,6 @@ export async function setup() {
     const started = new Date().toISOString()
     log.info(`Service started at ${started}`)
 
-    // @ts-ignore
     get("/", ({ req }) => {
       return `Running since ${started}. Your IP is ${req.ip}.`
     })
